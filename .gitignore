@@ -1,0 +1,12 @@
+# Ignore makepkg build directories
+pkg/
+src/
+
+# Ignore downloaded source archives
+*.tar.gz
+*.tar.xz
+*.zip
+*.bz2
+
+# Ignore any local bash history or environment files
+.env
