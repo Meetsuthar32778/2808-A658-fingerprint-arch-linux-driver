@@ -29,6 +29,7 @@ sudo pacman -S fprintd
 
 4. Install the custom libfprint package
 ```bash
+cd 2808-A658-fingerprint-arch-linux-driver
 sudo pacman -U -dd --overwrite '*' libfprint.pkg.tar.zst
 ```
 
