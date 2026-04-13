@@ -18,7 +18,7 @@ You should see a device listed as FocalTech in the output.
 
 2. Download the repository and navigate into the folder where the package is located:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+git clone https://github.com/Meetsuthar32778/2808-A658-fingerprint-arch-linux-driver.git
 cd YOUR_REPO_NAME
 ```
 
