@@ -55,3 +55,18 @@ Add the following line to the very top of the file:
 auth            sufficient      pam_fprintd.so
 ```
 Save and exit.
+
+# Ubuntu / Debian Installation
+
+An installation script is now included for **Ubuntu** (such as 22.04 or 24.04). The script automatically extracts the original driver files from the pre-compiled Arch package and installs them in the correct directories for Debian-based systems.
+
+To install on Ubuntu, simply run:
+```bash
+sudo ./install_ubuntu.sh
+```
+
+Once completed, you can enroll your fingerprint in **Settings -> Users** and configure PAM for sudo by running:
+```bash
+sudo pam-auth-update
+```
+(Ensure that `Fingerprint authentication` is checked).
